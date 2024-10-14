@@ -3,14 +3,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ma.fsr.tpcustomer.config;
-import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.faces.annotation.FacesConfig;
+//import jakarta.enterprise.context.ApplicationScoped;
+//import jakarta.faces.annotation.FacesConfig;
 
 
 /**
  *
  * @author elben
  */
+//@ApplicationScoped
+//@FacesConfig
 public class ConfigJSF {
     
 }

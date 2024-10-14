@@ -30,6 +30,13 @@ public class CustomerManager {
     }
 
     //donne à gérer à l'entity manager le customer passé en paramètre 
+
+    /**
+     *
+     * @param customer
+     * @return
+     */
+    @Transactional
     public Customer update(Customer customer) {
         return em.merge(customer);
     }
